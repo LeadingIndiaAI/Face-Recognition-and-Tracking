@@ -1,2 +1,13 @@
-# Face-Recognition-and-Tracking
-The human-face is one of the easiest ways to distinguish the individual identity of each other. Face recognition is a very important task and has wide variety of application in security systems, authentication etc. Tracking the individuals can give us the valuable insights. In this project, we have developed Computer Vision based face recognition and tracking system with OpenCV and dlib. Our model is able to recognize and differentiate between known and unknown faces. For the tracing part, time when a person enters and leaves the premises is captured and the difference is calculated. The model was trained on dataset of 50 different individuals with 10 different images of each. We achieved state-of-the-art accuracy.
+# face-recognition-and-identification
+
+place aligned/unaligned face images in dataset folder under a folder name which will same as ur label.
+
+then run encode_faces. (This will take time depending on GPU/CPU!)
+
+This will train the model with ur face data and generate a new encodings.pickle.
+
+A pickle file is already uploaded trained with dataset also upoaded.
+
+If encodings.pickle exists then face_capture can be run.
+
+It will capture video from primary camera and detect faces logging entering and leaving time. 
